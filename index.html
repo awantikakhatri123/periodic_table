@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Neon Periodic Table</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Neon Periodic Table<small>Hover, click and filter &mdash; explore all 118 elements</small></h1>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search: name, symbol or number ( / )" autocomplete="off">
+    <button class="btn" id="rnd">🎲<span class="lb"> Random</span></button>
+    <button class="btn" id="th">🌓<span class="lb"> Theme</span></button>
+  </div>
+</header>
+<div class="legend" id="lg"></div>
+<div class="wrap"><div id="pt"><div id="info"><div><b id="ib">Pick an element</b><span id="is">Hover over any tile to preview it</span></div></div></div></div>
+<div id="dlg"><div class="card" id="cd"></div></div>
+
+<script src="app.js"></script>
+</body>
+</html>
